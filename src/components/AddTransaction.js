@@ -26,6 +26,7 @@ const AddTransaction = ({ newTransaction }) => {
 
   return (
     <form onSubmit={onSubmitForm}>
+      <small>(Enter +ve values for income and -ve for expenses)</small>
       <div className="form-control">
         {/* <label htmlFor="description">Description: </label> */}
         <input
